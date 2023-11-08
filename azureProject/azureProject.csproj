@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Dtos\" />
     <Folder Include="Data\" />
+    <Folder Include="Utility\" />
     <Folder Include="ef\" />
     <Folder Include="Services\" />
   </ItemGroup>
